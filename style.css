@@ -118,7 +118,7 @@ iframe {
 
 /* Menu Links */
 ul.main-menu {
-  margin: 0;
+  margin: 20px 0 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -137,6 +137,26 @@ ul.main-menu li a:hover {
 ul.main-menu li a.active {
   color:#FFFFFF;
   border-bottom-color:#EF6D3D;
+}
+
+.download-cv {
+  display: table;
+  margin-top: 0;
+  padding: 8px 16px;
+  border: 1px solid #EF6D3D;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+header h1 {
+  margin-bottom: 8px;
+}
+.download-cv:hover {
+  background: #EF6D3D;
+  color: #FFFFFF;
+}
+.download-cv:focus {
+  outline: 2px solid #FFFFFF;
+  outline-offset: 3px;
 }
 
 /* Utility classes */
