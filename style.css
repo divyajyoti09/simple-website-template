@@ -97,7 +97,7 @@ html {
   background-size:cover;
 }
 body {
-  max-width:800px;
+  max-width:1000px;
   margin:25px auto;
 }
 header, #content, footer { 
@@ -105,11 +105,17 @@ header, #content, footer {
   padding:25px;
   color:#FFFFFF; 
 }
-header img {
-  display: block;
+.header-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+.header-top img {
   width: 180px;
   height: auto;
-  margin-bottom: 15px;
   border-radius: 50%;
 }
 iframe {
@@ -140,8 +146,7 @@ ul.main-menu li a.active {
 }
 
 .download-cv {
-  display: table;
-  margin-top: 0;
+  display: inline-block;
   padding: 8px 16px;
   border: 1px solid #EF6D3D;
   border-radius: 4px;

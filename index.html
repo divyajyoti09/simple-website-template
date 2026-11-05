@@ -24,14 +24,18 @@
   <body>
 
     <header id="header">
-      <img src="photo.jpeg">
+      <div class="header-top">
+        <img src="photo.jpeg">
+        <a class="download-cv" href="cv.pdf" download>View CV</a>
+      </div>
       <h1>Divyajyoti</h1>
-      <a class="download-cv" href="cv.pdf" download>Download CV</a>
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#biography">Biography</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
    
@@ -42,14 +46,50 @@
           <div id="home" class="content-region hide">
             <h2>Home</h2>
             <p>
+              I am a researcher in gravitational wave astrophysics. I focus on the analysis of real gravitational wave signals as well as simulated data to infer the properties of gravitational wave sources.
+              <br><br>
+              I am particularly interested in binary black hole mergers with eccentric orbits or highly misaligned spins since these signatures can indicate that the binaries were formed in dynamical environments. 
+              <br><br>
+              I am also interested in understanding the waveform systematics and current data analysis methods limitations for the next generation of gravitational wave detectors.
+            </p>
+          </div>
+
+          <div id="research" class="content-region hide">
+            <h2>Research</h2>
+            <p>
+              This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
+            </p>
+          </div>
+
+          <div id="publications" class="content-region hide">
+            <h2>Publications</h2>
+            <p>
               This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
             </p>
           </div>
           
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
+          <div id="biography" class="content-region hide">
+            <h2>Biography</h2>
             <p>
-              Sed tempus urna et pharetra pharetra massa massa ultricies. Porttitor rhoncus dolor purus non enim praesent. Id aliquet risus feugiat in ante metus dictum. 
+              <ul>
+                <li>2024 - present : Research Associate at Cardiff University</li>
+                <li>Jan - July 2024 : Postdoctoral Equivalent Fellow at Indian Institute of Technology (IIT) Madras, Chennai, India</li>
+                <li>2019 - 2024 : Ph.D. in Physics from IIT Madras with doctoral research focussed on Gravitational Wave Astrophysics</li>
+                <li>2019 : Final year of B. Tech. from IIT Madras</li>
+                <li>2015 - 2019 : B.Tech. in Engineering Physics from National Institute of Technology Agartala, India</li>
+              </ul>
+
+              <h3>Honours and awards</h3>
+              <ul>
+                <li>Institute Research Award 2024 - awarded by Indian Institute of Technology Madras in recognition of excellent PhD work</li>
+              </ul>
+
+              <h3>Professional memberships</h3>
+              <ul>
+                <li>Cosmic Explorer Consortium</li>
+                <li>LIGO Scientific Collaboration</li>
+              </ul>
+
             </p>
           </div>
           
@@ -65,7 +105,6 @@
     </div>
 
     <footer>  
-      Footer region
     </footer>
     
     <!-- Load additional JS scripts here -->
